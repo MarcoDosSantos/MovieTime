@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/fondoMovieTime"
+    tools:context="com.example.yonoc.coverflow.View.ActividadClasificarPorGenero.GenerosFiltradosFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:theme="@style/Theme.MyFancyTheme"
+        android:id="@+id/toolbarBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerGenerosFiltrados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

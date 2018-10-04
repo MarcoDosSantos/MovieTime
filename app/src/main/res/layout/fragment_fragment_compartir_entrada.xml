@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoMovieTime"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.ActividadCompartir.FragmentCompartirEntrada">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="7dp"
+            app:cardCornerRadius="5dp"
+            android:elevation="0dp"
+            app:cardMaxElevation="0dp"
+            android:background="@drawable/my_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </FrameLayout>
+
+            <ImageView
+                android:src="@drawable/my_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/posterPeliculaEnCompartir"
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/mt_logo" />
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Entradas disponibles para:" />
+
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/textViewPelicula"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:text="ACA VA EL NOMBRE DE LA PELICULA" />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="En la sala:" />
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/textViewCine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:text="ACA VA EL NOMBRE DEL CINE" />
+
+                    <TextView
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Llevate una o publicá la que te sobra!!!" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewCompartirEntrada"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_gravity="bottom"
+                android:id="@+id/botonTengoUnaEntrada"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:background="@drawable/my_button"
+                android:layout_height="wrap_content"
+                android:text="Tengo una entrada" />
+
+        </LinearLayout>
+
+
+  <!--      <Button
+            android:id="@+id/botonVerCoincidencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Coincidencias" />
+
+        <Button
+            android:id="@+id/botonEntradasPublicadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mis entradas publicadas" />-->
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

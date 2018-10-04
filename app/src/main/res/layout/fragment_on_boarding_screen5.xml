@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".View.OnBoarding.OnBoardingScreen5Fragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si querés ver si alguien en tu zona comparte una entrada para la película que te gusta, hacé click en QUIERO UNA ENTRADA."
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="279dp"
+        android:layout_height="464dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pantalla_4" />
+
+</LinearLayout>

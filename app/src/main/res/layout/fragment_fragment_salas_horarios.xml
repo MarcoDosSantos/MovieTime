@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".View.DetallePeliculaViewPager.ComponentesDeLaPantalla.FragmentSalasHorarios"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Selecciona tus preferencias"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#46C76F"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewCine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Cine:"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#46C76F"
+                    />
+            </LinearLayout>
+
+
+            <Spinner
+                android:id="@+id/spinnerCines"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" />
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Horario:"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#46C76F"/>
+            </LinearLayout>
+
+
+            <Spinner
+                android:id="@+id/spinnerTurnos"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="Día:"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#46C76F"
+                    />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerFecha"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnComprar"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:paddingBottom="5dp"
+                android:layout_marginStart="34dp"
+                android:background="@drawable/comprar_btn" />
+
+            <Button
+                android:id="@+id/btnCompartir"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_share_black_24dp" />
+
+            <Button
+                android:id="@+id/botonComoLlegar"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="34dp"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_place_black_24dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>

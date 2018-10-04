@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#283939</color>
+    <color name="colorPrimaryDark">#0f1515</color>
+    <color name="colorAccent">#7fa9be</color>
+    <color name="fondoMovieTime">#1a2121</color>
+    <color name="white">#ffffff</color>
+    <color name="backgroundCardview">#2c3838</color>
+    <color name="toolbarColor">#273131</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/miPerfil"
+            android:icon="@drawable/userblanco24px"
+            android:title="Mi Perfil" />
+        <item
+            android:id="@+id/menuHome"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+
+
+    </group>
+
+    <item android:title="Compartí">
+        <menu>
+            <item
+                android:id="@+id/botonEntradasPublicadasMenuDrawer"
+                android:icon="@drawable/entradas"
+                android:title="Mis Publicaciones" />
+
+            <item
+                android:id="@+id/botonMisContactosMenuDrawer"
+                android:icon="@drawable/intercambio"
+                android:title="Mis Contactos" />
+
+            <item
+                android:id="@+id/ubicacion"
+                android:icon="@drawable/ic_place"
+                android:title="Ubicacion" />
+            <item
+                android:id="@+id/logIn"
+                android:icon="@drawable/ic_blur_off_black_24dp"
+                android:title="LogIn" />
+
+
+        </menu>
+    </item>
+
+</menu>

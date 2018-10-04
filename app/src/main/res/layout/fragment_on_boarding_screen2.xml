@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".View.OnBoarding.OnBoardingScreen2Fragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elegí al película que te gustaría ir a ver."
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="279dp"
+        android:layout_height="464dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pantalla_2" />
+
+</LinearLayout>

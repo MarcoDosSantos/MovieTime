@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoMovieTime"
+    android:orientation="vertical"
+    tools:context="com.example.yonoc.coverflow.View.PerfilDeUsuario.PerfilDeUserFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="100dp"
+            android:background="@color/toolbarColor"
+            android:fitsSystemWindows="true"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginRight="120dp"
+                    android:src="@drawable/mt_logo_completo"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="15dp"
+            android:elevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardBackgroundColor="@color/backgroundCardview"
+            app:cardCornerRadius="7dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </FrameLayout>
+
+            <ImageView
+                android:src="@drawable/my_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewFotoPerfil"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/userblanco24px" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:text="Mi Perfil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/nombreDelUsuarioEnPerfil"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:textSize="20dp"
+                        android:text="Mi nombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom|center">
+
+                        <ImageView
+                            android:id="@+id/star1"
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star_icon"/>
+
+                        <ImageView
+                            android:id="@+id/star2"
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star_icon" />
+
+                        <ImageView
+                            android:id="@+id/star3"
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star_icon" />
+
+                        <ImageView
+                            android:id="@+id/star4"
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star_icon" />
+
+                        <ImageView
+                            android:id="@+id/star5"
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star_icon"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_below="@+id/layoutViewPagerPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TabLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:tabMode="fixed"
+                android:background="@color/backgroundCardview"
+                app:tabGravity="fill"
+                app:tabTextColor="@color/white"
+                app:tabSelectedTextColor="@color/colorAccent"
+                android:id="@+id/tabLayoutPerfil"
+                />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPagerPerfil"
+                android:layout_below="@+id/tabLayoutPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v4.view.ViewPager>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+
+    </LinearLayout>

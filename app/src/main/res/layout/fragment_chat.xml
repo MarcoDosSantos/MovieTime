@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundCardview"
+    tools:context="com.example.yonoc.coverflow.View.ActividadCompartir.ActividadChat.ChatFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout">
+
+        <ImageView
+            android:tint="@color/fondoMovieTime"
+            android:layout_gravity="center"
+            android:src="@drawable/mt_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:foregroundGravity="top"
+            android:id="@+id/recyclerDeChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout">
+        </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_weight="0.9"
+            android:id="@+id/editTextMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Mensaje"/>
+
+        <Button
+            android:id="@+id/botonEnviarMensaje"
+            android:layout_weight="0.1"
+            android:text="enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "143251758648",
+    "firebase_url": "https://signinmovietime.firebaseio.com",
+    "project_id": "signinmovietime",
+    "storage_bucket": "signinmovietime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143251758648:android:5c44b7b496a6ae0b",
+        "android_client_info": {
+          "package_name": "com.example.yonoc.coverflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143251758648-gn6gu6fm6p2ks28d3vk3curlvo39ovu7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yonoc.coverflow",
+            "certificate_hash": "2e48ed28b6493594f0abf1a243baade4da923b97"
+          }
+        },
+        {
+          "client_id": "143251758648-98gj90gmvk6cc3vl1gh582ctf57109n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeFbOBVBADJR__QiMH_xiv3T9lac0pvVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143251758648-98gj90gmvk6cc3vl1gh582ctf57109n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
